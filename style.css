@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* navigation */
+.nbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    position: sticky;
+    top: 0px;
+}
+.logo img{
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+.logo img:hover{
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.items{
+    display: flex;
+    margin-bottom: 20px;
+}
+.items li{
+    list-style: none;
+    margin-top: 20px;
+}
+.items li a{
+    text-decoration: none;
+    margin: 80px;
+    font-size: 2.0rem;
+    color: white;
+    /* font-weight: bold; */
+}
+.items li a:hover{
+    color: rgb(203, 221, 255);
+    transition-property: all;
+    transition-duration: 0.5s;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.background{
+    background: rgba(0, 0, 0, 0.7)  url(bgmain.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* home */
+.sect1{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    text-wrap: wrap;
+    margin: 80px;
+}
+.text1{
+    text-align: center;
+}
+.images{
+    width: 665px;
+}
+.images img{
+    width: 500px;
+    margin: 80px;
+    cursor: pointer;
+}
+.images img:hover{
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.5s;
+}
+.boxmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.sect1 h3{
+    font-size: 2rem;
+}
+.sect1 p{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.base1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.title1{
+    text-align: center;
+}
+
+/* imgbg */
+.image1{
+    background: rgba(0, 0, 0, 0.7)  url(bg3.jpg) center;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* About */
+.box2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.b2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+.i1{
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.i1:hover{
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.5s;  
+}
+.con1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240 243 248 / 65%);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.con2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240 243 248 / 65%);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.con3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240 243 248 / 65%);
+    padding: 20px;
+    border-radius: 40px;
+}
+.con1 h3{
+    font-size: 2rem;
+    padding: 20px;
+}
+.con1 p{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.con2 h3{
+    font-size: 2rem;
+    padding: 20px;
+}
+.con2 p{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.con3 h3{
+    font-size: 2rem;
+    padding: 20px;
+}
+.con3 p{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.abt{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.btn1{
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0px;
+    border: 1px solid grey;
+    font-family: 'Raleway', sans-serif;
+}
+.btn1:hover{
+    background-color: rgb(215, 215, 247);
+}
+
+.i2{
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.i2:hover{
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.5s;  
+}
+.i3{
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.i3:hover{
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.5s;  
+}
